@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const UPDATE_URL =
-	"https://cursor.com/api/download?platform=linux-x64&releaseTrack=stable";
+	"https://cursor.com/api/download?platform=linux-x64&releaseTrack=latest";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
