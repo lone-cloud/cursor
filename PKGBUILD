@@ -1,13 +1,12 @@
 # Maintainer: lone-cloud <lonecloud604@pm.me>
 
-pkgname=cursor-ide
+pkgname=cursor
 pkgver=2.6.22
 pkgrel=1
 pkgdesc='The AI Code Editor'
 arch=('x86_64')
 url="https://www.cursor.com"
 license=('LicenseRef-Cursor_EULA')
-provides=('cursor')
 makedepends=('imagemagick')
 
 depends=(

@@ -1,8 +1,8 @@
-# cursor-ide
+# cursor
 
 Arch Linux package for [Cursor](https://www.cursor.com) — the AI code editor. Packages the official `.deb` release with its bundled Electron runtime.
 
-Available on the [AUR](https://aur.archlinux.org/packages/cursor-ide).
+Available on the [AUR](https://aur.archlinux.org/packages/cursor).
 
 ## Features
 
@@ -10,26 +10,26 @@ Available on the [AUR](https://aur.archlinux.org/packages/cursor-ide).
 - Uses Cursor's bundled Electron (no system electron dependency)
 - Icon trimmed and resized to fit desktop environment conventions
 
-## cursor-ide vs cursor-bin
+## cursor vs cursor-bin
 
-| | cursor-ide | cursor-bin |
+| | cursor | cursor-bin |
 |---|---|---|
 | Electron | Bundled (upstream) | System |
 | Native module compatibility | Guaranteed | May break |
 | Package size | Larger | Smaller |
 | Upstream behaviour | Identical to official builds | Best-effort |
 
-Use `cursor-ide` if you want the exact behaviour of Cursor's official Linux builds. Use `cursor-bin` if you prefer sharing the system Electron and don't mind the occasional breakage with native extensions.
+Use `cursor` if you want the exact behaviour of Cursor's official Linux builds. Use `cursor-bin` if you prefer sharing the system Electron and don't mind the occasional breakage with native extensions.
 
 ## Install
 
 ```bash
 # With an AUR helper
-paru -S cursor-ide
+paru -S cursor
 
 # Or manually
-git clone https://aur.archlinux.org/cursor-ide.git
-cd cursor-ide
+git clone https://aur.archlinux.org/cursor.git
+cd cursor
 makepkg -si
 ```
 
