@@ -44,7 +44,7 @@ jobs:
 
       - name: Publish to AUR
         if: steps.check.outputs.update_available == 'true' || inputs.force_publish
-        uses: KSXGitHub/github-actions-deploy-aur@v4.1.1
+        uses: KSXGitHub/github-actions-deploy-aur@v4.1.2
         with:
           pkgname: cursor
           pkgbuild: ./PKGBUILD
